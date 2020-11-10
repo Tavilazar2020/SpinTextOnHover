@@ -77,36 +77,16 @@ transform: rotateY( 360deg);
     background-image: url("../images/energy_logo.png");
     background-size: cover;
     border: none;
-    /* animation: slideMe  1s ease-in; */
+    animation: slideMe  1s ease-in;
   
 
 }
 
-.shake: :no-button{
 
-    animation-name:shake;
-    animation: duration 1s;
-    transform-origin: 50% 50%;
-
-
-
-}
-/* 
 @keyframes slideMe{
 
     0%{margin-left: 1500px;}
     100%{margin-left: 100px;}
 
-} */
+}
  
-
-@keyframes shake{
-
-    0%{transform:translate(2px,1px) rotatle(0deg);}
-    20%{transform:translate(-1px,-2px) rotatle(0deg);}
-    40%{transform:translate(-3px,0px) rotatle(0deg);}
-    60%{transform:translate(1px,2px) rotatle(0deg);}
-    80%{transform:translate(-2px,1px) rotatle(0deg);}
-    100%{transform:translate(-1px,-1px) rotatle(0deg);}
-
-} 
